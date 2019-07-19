@@ -1,13 +1,15 @@
 # Steam Review Filter
-Just a quick test to change the CSS of Steam reviews based on their content. Currently this only makes reviews transparent if they don't contain a few keywords related to vr games.
+Just a quick test to change the CSS on Steam reviews based on their text content. Currently this only makes reviews transparent if they don't contain a few keywords related to vr games.
+
+![alt text](https://i.imgur.com/WCOIF6p.png)
 
 ## Install
 1. Download & Extract
-2. Navigate to about:debugging in FireFox (45+) and 
+2. Navigate to about:debugging in FireFox (45+)
 3. Click "Load Temporary Add-on" and open the manifest.json
 
 ## Use
-Navigate to any Steam reveiw page https://steamcommunity.com/app/APPID/reviews/
+Navigate to any Steam review page https://steamcommunity.com/app/APPID/reviews/
 
 [Example 1: Project CARS 2](https://steamcommunity.com/app/378860/reviews/?browsefilter=toprated&snr=1_5_100010_&p=1)
 
