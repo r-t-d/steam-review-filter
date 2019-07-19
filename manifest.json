@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Steam Review Filter",
+    "version": "1.0",
+    "description": "Removes Steam reviews from a page using a list of keywords.",
+    "content_scripts": [
+    {
+        "matches":["*://*.steamcommunity.com/app/*/reviews/*"],
+        "js":["steamfilter.js"]
+    }
+    ]
+    }
